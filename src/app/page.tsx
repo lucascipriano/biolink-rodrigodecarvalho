@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Book, Github, Instagram, Phone } from "lucide-react";
+import { Book, Instagram, Phone } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -59,15 +59,7 @@ export default function Home() {
                 <p>Tiktok</p>
               </a>
             </Button>
-            <Button variant="outline" className="w-full justify-start" asChild>
-              <a
-                href="https://github.com/seuuser"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="mr-2 h-4 w-4" /> GitHub
-              </a>
-            </Button>
+
             <Button variant="outline" className="w-full justify-start" asChild>
               <a
                 href="https://pay.kiwify.com.br/f3ZBDUH"
